@@ -4,13 +4,12 @@ import com.jogamp.opengl.awt.*;
 import com.jogamp.opengl.util.FPSAnimator;
 import com.jogamp.opengl.util.awt.TextRenderer;
 
-import javax.swing.*;
 import java.awt.event.*;
 import java.util.*;
 import java.awt.*;
 
 public class GraphVisualizer extends Frame implements GLEventListener,MouseListener{
-    long INTERVAL = 200;
+    long INTERVAL = 500;
     boolean EDGE_SELECTION_MODE = false;
     boolean ESM_1 = false;
     LinkedList<Coordinates> esmbuffer = new LinkedList<Coordinates>();
